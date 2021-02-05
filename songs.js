@@ -12,7 +12,7 @@ const songs = [
     img: "img/twist.jpg",
   },
   {
-    name: "I wanna dance with somebidy",
+    name: "I wanna dance with somebody",
     singer: "Whitney Houston",
     year: 1987,
     img: "img/whitney.jpg",
