@@ -35,20 +35,27 @@ const copy3 = bookTemplate.cloneNode(true);
     <p class="like">I like it</p>
   </article>
 */
-copy.querySelector("h1 > span").textContent = book.name;
-copy.querySelector(".author > span").textContent = book.author;
-copy.querySelector(".year > span").textContent = book.yearOfPublishing;
-copy.querySelector(".like > span").textContent = book.like;
+// copy.querySelector("h1 > span").textContent = book.name;
+copy.querySelector("h1").textContent = `Name: ${book.name}`;
+copy.querySelector(".author").textContent = `Author: ${book.author}`;
+copy.querySelector(
+  ".year"
+).textContent = `When it was first published: ${book.yearOfPublishing}`;
+copy.querySelector(".like").textContent = `I like it: ${book.like}`;
 
-copy2.querySelector("h1 > span").textContent = book2.name;
-copy2.querySelector(".author > span").textContent = book2.author;
-copy2.querySelector(".year > span").textContent = book2.yearOfPublishing;
-copy2.querySelector(".like > span").textContent = book2.like;
+copy2.querySelector("h1").textContent = `Name: ${book2.name}`;
+copy2.querySelector(".author").textContent = `Author: ${book2.author}`;
+copy2.querySelector(
+  ".year"
+).textContent = `When it was first published: ${book2.yearOfPublishing}`;
+copy2.querySelector(".like").textContent = `I like it: ${book2.like}`;
 
-copy3.querySelector("h1 > span").textContent = book3.name;
-copy3.querySelector(".author > span").textContent = book3.author;
-copy3.querySelector(".year > span").textContent = book3.yearOfPublishing;
-copy3.querySelector(".like > span").textContent = book3.like;
+copy3.querySelector("h1").textContent = `Name: ${book3.name}`;
+copy3.querySelector(".author > span").textContent = `Author: ${book3.author}`;
+copy3.querySelector(
+  ".year"
+).textContent = `When it was first published: ${book3.yearOfPublishing}`;
+copy3.querySelector(".like").textContent = `I like it: ${book3.like}`;
 
 //find the parent element
 const daddy = document.querySelector("main");
