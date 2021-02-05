@@ -1,20 +1,29 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,900;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap");
 
 body {
-  background-color: #f5a9e7;
+  /* background-color: #f5a9e7; */
+  background-color: #e3cade;
   font-family: "Lato", sans-serif;
 }
 
 main {
+  margin: 2rem;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 2rem;
 }
 
+header {
+  margin: 2rem;
+}
+
 article {
   padding: 1rem;
-  border: 1px solid red;
+  /* border: 1px solid red; */
+  /* border: 1px solid #ab078a; */
   border-radius: 15px;
+  background-color: #d1abc9;
 }
 
 img {
@@ -24,16 +33,19 @@ img {
 ul {
   display: flex;
   justify-content: flex-start;
+  padding: 0;
 }
 
 li {
-  padding: 1rem 2rem;
+  /* padding: 1rem 2rem; */
   list-style: none;
   font-size: 1.5rem;
   font-weight: 700;
+  margin-right: 2rem;
 }
 
 a {
   text-decoration: none;
-  color: #de3283;
+  color: #591d4e;
+  font-family: "Montserrat", sans-serif;
 }
