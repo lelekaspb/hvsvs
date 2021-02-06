@@ -48,6 +48,13 @@ const songs = [
       "https://www.youtube.com/watch?v=i8WoZOdin-k&ab_channel=BEAUTY3125",
   },
   {
+    name: "N'oubliez Jamais",
+    singer: "Joe Cocker",
+    year: 1997,
+    img: "img/noubliezjamais.jpg",
+    youtubeLink: "https://www.youtube.com/watch?v=MBpyuYgfCWA",
+  },
+  {
     name: "Mon mec à moi",
     singer: "Patricia Kaas",
     year: 1988,
@@ -93,6 +100,34 @@ const songs = [
     img: "img/kokomo.jpg",
     youtubeLink:
       "https://www.youtube.com/watch?v=TadZubd0YSo&ab_channel=That%27sMusic",
+  },
+  {
+    name: "Skibidi",
+    singer: "Little Big",
+    year: 2018,
+    img: "img/skibidi.gif",
+    youtubeLink: "https://www.youtube.com/watch?v=mDFBTdToRmw",
+  },
+  {
+    name: "Bomfunk MC's",
+    singer: "Freestyler",
+    year: 1999,
+    img: "img/bomfunkmcs.jpg",
+    youtubeLink: "https://www.youtube.com/watch?v=ymNFyxvIdaM",
+  },
+  {
+    name: "Butterfly",
+    singer: "Crazy town",
+    year: 1999,
+    img: "img/butterfly.png",
+    youtubeLink: "https://www.youtube.com/watch?v=6FEDrU85FLE",
+  },
+  {
+    name: "Haru Mamburu",
+    singer: "Nogu Sveló!",
+    year: 1993,
+    img: "img/mamburu.jpg",
+    youtubeLink: "https://www.youtube.com/watch?v=VNKvtA9AkjI",
   },
 ];
 
